@@ -1,0 +1,834 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+a{
+    color: black;
+}
+
+.lightblack{
+    color: #707070;
+}
+
+.blackish {
+    color: rgb(255, 255, 255);
+}
+
+.column {
+    display: block;
+    flex-direction: column;
+}
+
+.redish {
+    color: #F85A40;
+}
+
+.white {
+    color: white;
+}
+
+.nav-igon {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+
+}
+
+.btn{
+    padding: 0.85em 2em;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 0.95rem;
+
+}
+
+#first{
+    
+
+
+    background-image: linear-gradient(75deg, rgb(6 6 6 / 64%) 8%, transparent),
+        url("non.jpg");
+    background-position: center;
+    background-size: cover;
+  
+    
+
+}
+
+
+#nav{
+    display: flex;
+    flex-direction: column;
+  
+
+}
+#nav ul{
+    text-align: center;
+    margin: 0px 15px;
+    display: none;
+
+
+  
+}
+
+
+#nav ul li{
+    background: white;
+    padding: 15px;
+  
+    
+}
+#nav ul  li a{
+    color: black;
+    padding: 11em 0em;
+    text-transform: uppercase;
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: bold;
+
+  
+  
+
+}
+#nav ul li:first-child a {
+    color:#F85A40;
+
+
+}
+
+.logo:hover{
+    color: #F85A40;
+
+}
+
+.nav-links .fa-moon{
+    display: none;
+}
+
+
+
+
+
+
+
+.nav-top{
+    font-size: 30px;
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight:bolder;
+    align-items: center;
+    display: flex;
+    gap: 7px;
+    margin-left: 15px;
+
+}
+
+
+
+
+
+.nav-links .search{
+    background: white;
+    border-radius: 15px;
+    padding: .5em;
+    border:  0.6px solid rgb(171, 162, 162);
+    
+}
+.search-btn{
+    border: none;
+    background: white;
+    margin: 20px 0;
+  
+}
+
+.nav-links input{
+    border: none;
+    outline: none;
+}
+.sea-sec{
+    background: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.hameeis{
+    display: flex;
+    color: white;
+    gap: 20px;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.hamburger .fa-bars{
+    padding: .5em;
+    background: #F85A40;
+    color: #fff;
+    border-radius: 3px;
+}
+.conx{
+    padding-left:5%;
+}
+
+.text-content{
+
+ 
+  
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  
+    padding: 11rem 0;
+    
+}
+.text-content>h1{
+    width: 440px;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: 'Raleway',
+    sans-serif;
+    margin-bottom: 20px;
+    line-height: 55px;
+    
+}
+
+.text-content>h4{
+    font-size: 1.15rem;
+    letter-spacing: 0.35px;
+    font-weight: lighter;
+    font-family: 'Raleway',
+    sans-serif;
+    margin-bottom: 55px;
+}
+.two-button{
+    display: flex;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.w-btn{
+    color: #1A2C79;
+}
+.w-btn:hover{
+    background: transparent;
+    color: white;
+    border:0.55px solid white;
+    transition: 0.55s;
+}
+.t-btn{
+    background: transparent;
+    border: 0.55px solid white;
+    color: white;
+}
+.t-btn:hover{
+    color: black;
+    background: white;
+    border: none;
+    transition: 0.55s;
+}
+
+.new-nav {
+    position: fixed;
+    width: 100vw;
+    z-index: 10 !important;
+    background: #fff;
+    
+    
+    
+
+}
+
+#first-half{
+    padding:7% 3% 7% 3% ;
+    font-family: 'Raleway',
+    sans-serif;
+}
+#first-half span>img{
+    width: 100%;
+    
+}
+.half__text>h1{
+    padding: 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.half__text p{
+    line-height: 25px;
+    font-size: 17px;
+    color: #707070;
+}
+
+.half__boxes{
+    display: flex;
+    gap: 40px;
+}
+.box>h2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    padding: 0px  0px 15px 0px;
+    
+}
+.box>p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #707070;
+}
+.box span>i{
+    color: #F85A40;
+    font-size: 35px;
+    padding: 25px 0px 10px 0px ;
+}
+
+
+
+
+.heading{
+    text-align:center;
+    font-family: 'Raleway',
+    sans-serif;
+ 
+  
+  
+
+    font-size: 1.0.75rem;
+}
+
+
+.black{
+    color: black;
+}
+
+
+
+.info span>img {
+       width: 100%;
+   }
+
+.container{
+    padding: 10%;
+    
+}
+
+.info {
+    text-align: start;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+   
+    box-shadow: 0 1px 1px 0 rgb(10 16 34 / 20%);
+    background: #fff;
+
+
+    font-family: 'Raleway',
+        sans-serif;
+
+}
+
+.info__text h1 {
+    
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.info__text p {
+    padding: 10px;
+    color: #707070;
+
+
+}
+
+.info__text h5 {
+    color: #F85A40;
+    padding: 10px;
+
+}
+
+
+
+.info:hover {
+    box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+}
+
+.info span>img {
+    width: 100%;
+}
+
+.info__text {
+    padding: 10px;
+}
+
+.info__text>p {
+    line-height: 20px;
+
+}
+
+.info{
+    margin-bottom: 30px;
+}
+
+
+#IV{
+    padding: 15px;
+}
+#IV article h1{
+    font-size: 30px;
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: 600;
+}
+
+#IV article p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: .4px;
+    color: #707070;
+    font-family: 'Raleway',
+    sans-serif;
+    text-align: justify;
+}
+
+.article__icon{
+    display: flex;
+    gap: 70px;
+    margin: 40px 0px;
+
+}
+
+.customer__info span>i{
+    color: #1A2C79;
+
+    font-size: 25px;
+}
+
+.customer__info span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.some__info{
+    display: flex;
+    
+    gap: 30px;
+}
+.some__info img{
+    border-radius: 50%
+}
+
+.some__info p{
+    color: #707070;
+    font-size: 17px;
+    letter-spacing: .4px;
+    line-height: 24px;
+
+
+    
+}
+.IV__text> h1{
+    font-size: 70px;
+    font-weight: 300;
+    color: #1A2C79;
+    height: 30px;
+    
+    
+
+
+}
+
+.IV__text >p{
+    font-size: 15.55px;
+
+}
+.IV__text >h4{
+    margin: 20px 0px;
+    color: #1A2C79;
+}
+
+
+
+#V{
+    padding: 0px 20px 0px 20px;
+   
+}
+.dog__image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dog__box{
+    padding: 20px 0px;
+
+}
+
+.dog__box span>i{
+    font-size: 22px;
+    padding: 10px 0px;
+    color: #F85A40;
+}
+
+.dog__box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0px;
+    
+}
+
+.dog__box p{
+    color: #707070;
+}
+#VI{
+    background: url(images/bg.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    color: white;
+    padding: 80px 3%;
+  
+}
+
+#VI h1{
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+}
+
+
+
+#VII .info h5{
+    color: #1A2C79;
+}
+
+#VII pre{
+    color: #1A2C79;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#VIII{
+    background: #060606;
+    color: #fff;
+    padding: 90px 3%;
+}
+
+
+
+.dog__care span{
+    font-size: 27px;
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: 600;
+}
+
+.dog__care span>i{
+   
+    color: #F85A40;
+    margin-right: 7px;
+    font-size: 30px;
+    
+    
+}
+.dog__care p{
+    width: 90%;
+    color: #f4f4f4ce;
+    line-height: 29px;
+    margin: 20px 0px;
+}
+.categories{
+    display: flex;
+    gap:90px;
+}
+.dog__categories{
+    margin-bottom: 20px;
+}
+.dog__categories >h3{
+    margin: 0px 0px 30px 0px;
+}
+.categories ul li{
+    line-height: 30px;
+    font-size:1rem ;
+    color: #f4f4f4ce;
+}
+
+.newsletter>h3+h3{
+    margin: 20px 0px;
+}
+.newsletter span {
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+
+.newsletter span>input{
+    padding: 15px 180px 15px 0px;
+}
+
+.newsletter span>button{
+    padding: 15px 50px;
+    background: #F85A40;
+    color: #fff;
+    font-size: 20px;
+}
+.newsletter{
+    margin-bottom: 55px;
+    
+}
+.footer__container{
+    border-bottom:0.15px solid #707070 ;
+}
+
+.copyright>p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.copyright p>strong{
+    color: #F85A40;
+}
+.copyright p>strong:hover {
+    color: #fff;
+    border-bottom: .25px solid #fff;
+    transition: 1.75s;
+}
+
+
+
+
+@media screen and (min-width:995px) {
+   #nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   }
+    #nav  ul{
+        display: flex!important;
+
+
+        
+        
+    }
+    #nav ul li{
+        background: none;
+    }
+    .search-section{
+        background: none;
+    }
+    #nav ul li a{
+        padding: 0px 10px;
+        color: #fff;
+        font-size:medium;
+        font-weight: bold;
+        font-family: 'Roboto',
+        sans-serif;
+        ;
+    }
+
+    #nav ul li:first-child a {
+        color: #fff;
+
+
+    }
+
+
+   .hameeis{
+       display: none;
+    
+   }
+   .nav-links{
+       align-items: center;
+   }
+   .nav-links .fa-moon {
+       display:inherit;
+       color: #fff;
+       margin-left: 20px;
+       font-size: 1.55rem;
+       
+   }
+   .search-section {
+      margin-top:0;
+   }
+   .content{
+       padding-left:10% ;
+   }
+
+.text-content>h1 {
+    width: 540px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Raleway',
+        sans-serif;
+    margin-bottom: 20px;
+    line-height: 55px;
+
+}
+.black {
+    color: black;
+}
+
+.black2{
+    color: black;
+}
+
+
+
+  .heading {
+      width: 50%;
+      margin: 0 auto;
+      font-size: 20px;
+
+  }
+
+  .heading>h1 {
+      line-height: 45px;
+  }
+
+  .heading>p {
+      line-height: 32px;
+  }
+
+  .container {
+      flex-wrap: wrap;
+      display: flex;
+
+      justify-content: space-evenly;
+      background: #fafafa;
+      padding: 5%;
+
+
+
+  }
+
+  .info {
+      text-align: start;
+      line-height: 30px;
+      letter-spacing: 1px;
+    
+      width: 28%;
+      box-shadow: 0 1px 1px 0 rgb(10 16 34 / 20%);
+      background: #fff;
+      
+      
+      font-family: 'Raleway',
+      sans-serif;
+
+  }
+
+
+
+   #first-half{
+       display: flex;
+       
+   
+      
+       justify-content: center;
+   }
+   .half-content{
+       width: 40%;
+      
+       
+    
+
+   }
+ 
+
+
+   .half__boxes{
+       width: 100%;
+   }
+   #first-half span>img{
+       width: 90%;
+       margin-left: auto;
+   }
+
+   .half__text>h1 {
+      
+       font-size: 37px;
+       font-weight: 600;
+   }
+
+ 
+   #IV{
+       display: flex;
+       gap: 90px;
+       padding: 10%;
+       
+   }
+
+   #V{
+       display: flex;
+       padding: 10%;
+       align-items: center;
+   }
+
+   .dog__image{
+       min-width: 200px;
+       height: 400px;
+   
+   }
+
+  
+
+   .footer__container{
+       display: flex;
+   }
+   .newsletter,.dog__categories{
+       width: 30%;
+   }
+   .dog__care{
+       width: 30%;
+   }
+   
+
+   .newsletter span>button{
+       padding: 10px 30px;
+   }
+
+   #eight{
+       padding: 90px 10%;
+   }
+
+  
+
+
+}
+
+@media screen and ( min-width: 575px) {
+
+    .dog__boxes{
+        display: flex;
+        padding: 0 10% 0 10%;
+    }
+
+
+
+    #VI h1{
+        max-width: 700px;
+        font-size: 40px;
+    }
+    #VI {
+        padding-left: 10%;
+    }
+    
+
+
+    .copyright>p {
+        margin-top: 20px;
+        text-align: start;
+
+    }
+}
